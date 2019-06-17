@@ -1,0 +1,4 @@
+temp/
+.terraform
+.ipynb_checkpoints
+kubeconfig.yaml
