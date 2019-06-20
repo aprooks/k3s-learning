@@ -13,8 +13,6 @@ services:
       - .:/output
     ports:
       - 6443:6443
-      - 8888:80
-      - 8880:8880
   node:
     image: rancher/k3s:v0.5.0
     tmpfs:
